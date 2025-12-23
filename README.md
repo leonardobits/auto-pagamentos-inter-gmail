@@ -123,7 +123,6 @@ Domínio (Regras de Negócio)
 Infraestrutura (Gmail, Banco Inter, Banco de Dados)
 ```
 
-Veja `plano.md` para documentação completa da arquitetura.
 
 ## Segurança
 
@@ -132,12 +131,6 @@ Veja `plano.md` para documentação completa da arquitetura.
 - Sistema usa OAuth2 para Gmail e Banco Inter
 - Prevenção de pagamentos duplicados em múltiplas camadas
 - Todas as tentativas de pagamento são auditadas
-
-## Documentação Completa
-
-- `plano.md` - Planejamento completo e arquitetura detalhada
-- `CLAUDE.md` - Guia para Claude Code trabalhar no projeto
-- `APIS.md` - Documentação das APIs utilizadas
 
 ## Licença
 
