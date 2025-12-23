@@ -1,0 +1,47 @@
+# Credenciais sensíveis (NUNCA commitar)
+src/configuracao/credenciais/*.json
+src/configuracao/credenciais/*.crt
+src/configuracao/credenciais/*.key
+*.pem
+.env
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+CLAUDE.md
+
+.env
